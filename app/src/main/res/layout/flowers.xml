@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:weightSum="3"
+        android:layout_margin="5dp"
+        android:background="@drawable/edit_text_bottom_border"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/layout">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_weight="0"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="60dp"
+                android:src="@drawable/flower_login"
+                android:scaleType="centerCrop"
+                android:id="@+id/itemImage"
+                android:layout_marginLeft="20dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vegetable Name"
+                android:padding="5dp"
+                android:gravity="center|left"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:id="@+id/flowerName"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

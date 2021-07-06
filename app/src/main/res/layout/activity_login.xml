@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/flower_login"
+    tools:context=".LoginActivity">
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_screen"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"/>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/m"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Mobile Number"
+        android:gravity="center"
+        android:background="@drawable/edit_text_bottom_border"
+        android:textColorHint="@color/white"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/p"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/white"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="Password"
+        android:background="@drawable/edit_text_bottom_border"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password ?"
+        android:layout_gravity="end"
+        android:textColor="@color/white"
+        android:layout_marginEnd="20dp"
+        android:textSize="15dp"
+        android:layout_marginRight="20dp" />
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_bottom_border"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/account_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:text="Do not have an account ? Create account"/>
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_screen"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="62dp"/>-->
+
+
+</LinearLayout>

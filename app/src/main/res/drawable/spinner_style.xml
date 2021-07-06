@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#fff"/>
+                    <stroke android:color="#000" android:width="2dp"  />
+                    <!--corners allow us to make the rounded corners button-->
+                    <corners android:radius="10dp" />
+
+                    <padding android:right="15dp">
+
+                    </padding>
+
+                </shape>
+            </item>
+
+            <item>
+                <bitmap android:src="@drawable/icon_spinner" android:gravity="end">
+
+                </bitmap>
+            </item>
+
+        </layer-list>
+    </item>
+
+</selector>
